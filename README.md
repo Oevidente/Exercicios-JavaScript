@@ -7,6 +7,7 @@
 3. Adicione um bloco com um parágrafo onde vai ser exibida a mensagem.
 4. Declare uma variavel que receba o que foi digitado no campo ***nome***.
 5. Declare um variavel que receba o que foi digitado no campo ***idade***.
-6. Defina uma função que exiba na tela o nome e a idade do usuário dentro de uma mensagem.
+6. Defina uma condição que exiba um alerta caso os dados não sejam preenchidos. E uma condição caso a idade seja negativa exiba um alerta informando isso.
+7. Defina uma função que exiba na tela o nome e a idade do usuário dentro de uma mensagem.
 *Ex.: Seu nome é Fulano e você tem 30 anos.*
-7. **(OPCIONAL) defina uma função que limpe os campos de texto ao final da função de exibir a mensagem.**
+8. **(OPCIONAL) defina uma função que limpe os campos de texto ao final da função de exibir a mensagem.**
