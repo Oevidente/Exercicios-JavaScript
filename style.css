@@ -1,0 +1,36 @@
+body {
+  font-style: normal 18px arial;
+  text-align: center;
+}
+h1 {
+  text-shadow: 0 0 5px darkblue;
+}
+section {
+  color: white;
+  align-self: center;
+  padding: 2px 15px 15px 15px;
+  background: rgb(0, 150, 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 100);
+}
+
+input{
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px darkblue;
+  border-radius: 25px;
+  border: solid 1px;
+  border-color: darkblue;
+}
+
+input#botao {
+  color: white;
+  font-weight: 700;
+  background-color: darkblue;
+}
+
+div#res {
+  font-size: 28px;
+  font-weight: 700;
+}
