@@ -1,5 +1,11 @@
 let txtNome = document.getElementById('txtnome');
 let numIdade = document.querySelector('input#numidade');
+ 
+ const limparCampos = () => { 
+ const campos = document.querySelectorAll('input.entrada'); 
+ campos.forEach(campo=>campo.value=''); 
+ }
+
 
 function adicionar() {
   let res = document.getElementById('res');
@@ -12,6 +18,7 @@ function adicionar() {
     } else {
       res.innerHTML = ``;
       res.innerHTML += `<br>Seu nome é ${txtNome.value} e você tem ${numIdade.value} anos.`;
+      limparCampos();
     }
   }
 }
