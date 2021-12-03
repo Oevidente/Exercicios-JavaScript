@@ -1,5 +1,8 @@
+head {
+  background-color: darkblue;
+}
 body {
-  font-style: normal 18px arial;
+  font-style: normal 18px Arial;
   text-align: center;
 }
 h1 {
@@ -31,6 +34,6 @@ input#botao {
 }
 
 div#res {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
 }
