@@ -26,21 +26,7 @@ input{
   border: solid 1px;
   border-color: darkblue;
 }
-input#mas {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 0 white;
-}
-input#fem {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 0 white;
-}
-input#nb {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 0 white;
-}
+
 input#botao {
   color: white;
   font-weight: 700;

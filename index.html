@@ -17,7 +17,13 @@
     <input type="text" name="txtnome" id="txtnome" class="entrada">
     Insira uma idade:
     <input type="number" name="numidade" id="numidade" class="entrada">
-    <input type="button" name="botao" id="botao" value="Adicionar" onclick="adicionar()"/>
+    <br><input type="radio" name="radsex" id="mas" value="M" checked="checked" />
+    <label for="mas">Masculino</label>
+    <input type="radio" name="radsex" id="fem" value="F" />
+    <label for="fem">Feminino</label>
+    <input type="radio" name="radsex" id="nb" value="NB" />
+    <label for="nb">Não Binário</label>
+    <br><input type="button" name="botao" id="botao" value="Adicionar" onclick="adicionar()"/>
     </div>
     <div id="res">
       <p>Seu nome e idade irão aparecer aqui:</p>
